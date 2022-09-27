@@ -1,0 +1,62 @@
+.container {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid;
+    border-radius: 10px;
+    overflow: auto;
+    
+    div {
+        width: 33%;
+    }
+
+    .shoot {
+        height: 250px;
+        border: 1px solid;
+        margin: 10px;
+        float: left;
+
+        .circle {
+            height: 50px;
+            width: 50px;
+            // background: red;
+            border-radius: 50%;
+            margin: 5px;
+            display: inline-block;
+            float: left;
+        }
+    }
+
+    .bubbles{
+        float: left;
+        min-height: 150px;
+        .circle {
+            height: 50px;
+            width: 50px;
+            // background: red;
+            border-radius: 50%;
+            margin: 5px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+
+    .input {
+        float: left;
+        width: 30%;
+        display: grid;
+        height: 250px;
+        height: 100px;
+        margin-top: 100px;
+
+        input::-webkit-outer-spin-button,
+        input::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+        }
+
+        input {
+            height: 30px;
+        }
+    }
+}
