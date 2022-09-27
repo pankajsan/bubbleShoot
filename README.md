@@ -7,7 +7,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 In the project directory, you can run:
 
 ### `Project setup`
-To setup the bubble shot application, clone the repository and execute `npm install`
+To setup the bubble shot application, clone the repository and execute `npm install` in root directory
 
 ### `npm start`
 
